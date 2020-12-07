@@ -4,11 +4,16 @@ version = "0.1.0"
 description = "Hypothes.is to RemNote integration"
 authors = ["Bernardo Chrispim Baron"]
 license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+remnothesis = "remnothesis.__main__:app"
 
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "^2.25.0"
 minilog = "^2.0"
+typer = {extras = ["all"], version = "^0.3.2"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.2"
