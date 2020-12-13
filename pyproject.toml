@@ -1,5 +1,12 @@
+# Copyright 2020 The Hyp2Rem Authors
+
+# Use of this source code is governed by an MIT-style
+# license that can be found in the LICENSE file or at
+# https://opensource.org/licenses/MIT.
+
+
 [tool.poetry]
-name = "remnothesis"
+name = "hyp2rem"
 version = "0.1.0"
 description = "Hypothes.is to RemNote integration"
 authors = ["Bernardo Chrispim Baron"]
@@ -7,7 +14,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.scripts]
-remnothesis = "remnothesis.__main__:app"
+hyp2rem = "hyp2rem.__main__:app"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -23,6 +30,22 @@ mypy = "^0.790"
 pre-commit = "^2.9.0"
 pylint = "^2.6.0"
 
+[tool.pylint.messages_control]
+disable = [
+    "too-many-arguments",
+    "fixme",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.1"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
+log_cli = true
+log_cli_level = "INFO"
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+

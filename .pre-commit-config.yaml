@@ -1,3 +1,5 @@
+
+
 # See https://pre-commit.com/ for usage and config
 repos:
 - repo: https://github.com/markdownlint/markdownlint
@@ -9,15 +11,6 @@ repos:
     language: ruby
     entry: mdl
     types: [markdown]
-- repo: https://github.com/bcbernardo/mirrors-lmt
-  rev: 9e94377dcec039541d5bec7e9ba73056078ab435
-  hooks:
-  - id: lmt
-    name: lmt
-    stages: [commit]
-    language: golang
-    entry: lmt
-    files: HOWTO.md
 - repo: local
   hooks:
   - id: isort
@@ -53,8 +46,8 @@ repos:
 
   - id: pytest
     name: pytest
-    stages: [commit]
+    stages: [manual]
     language: system
-    entry: poetry run pytest
+    entry: poetry run pytest -s
     types: [python]
     pass_filenames: false
