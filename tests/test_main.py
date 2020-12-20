@@ -11,12 +11,9 @@ This module provides test cases for the command line utility that syncs
 Hypothes.is and RemNote web apps.
 """
 
-import log  # type: ignore
 from typer.testing import CliRunner
 
 from hyp2rem.__main__ import app
-
-log.init(verbosity=3)
 
 runner = CliRunner()
 

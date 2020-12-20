@@ -104,6 +104,7 @@ def main(  # type: ignore
         verbosity = 3  # All possible output (DEBUG)
     else:
         verbosity = 1  # Errors and warnings (WARN) - Default
+    log.reset()
     log.init(verbosity=verbosity)
     # get group id, if a group name was provided
     group_id = None

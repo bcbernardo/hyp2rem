@@ -9,9 +9,10 @@
 name = "hyp2rem"
 version = "0.1.0"
 description = "Hypothes.is to RemNote integration"
-authors = ["Bernardo Chrispim Baron"]
+authors = ["The Hyp2Rem Authors"]
 license = "MIT"
 readme = "README.md"
+exclude = ["**/~BROMIUM"]
 
 [tool.poetry.scripts]
 hyp2rem = "hyp2rem.__main__:app"
@@ -33,7 +34,10 @@ pylint = "^2.6.0"
 [tool.pylint.messages_control]
 disable = [
     "too-many-arguments",
+    "too-many-instance-attributes",
     "fixme",
+    # only until pylint fixes typing support for Python3.9
+    "unsubscriptable-object",
 ]
 
 [tool.pytest.ini_options]
