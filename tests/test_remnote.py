@@ -31,7 +31,11 @@ log.init(verbosity=4)
 def example_rem_id() -> Generator[str, None, None]:
     """Generate a Rem, yield its Id for use in other tests, and delete it."""
     rem_id = remnote.create_rem(
-        REM_KEY, REM_USER, text="Testing:: create [[Rem]]", is_document=True
+        REM_KEY,
+        REM_USER,
+        text="Testing:: create [[Rem]]",
+        is_document=True,
+        source="http://example.com/",
     )
     yield rem_id
     # !!!
@@ -43,28 +47,57 @@ def test_get_rem_by_id(example_rem_id) -> None:
     """Test getting a Rem by its Id."""
     rem = remnote.get_rem_by_id(REM_KEY, REM_USER, example_rem_id)
     assert rem is not None
-    print(rem.name_md + ":: " + rem.content_md)
     assert rem.name_md == "Testing"
     assert "create " in rem.content
+    rem_source = rem.source[0]
+    if isinstance(rem_source, dict):
+        assert rem_source["url"] == "http://example.com/"
+    else:
+        assert rem_source == "http://example.com/"
 
 
 def test_get_rem_by_name(example_rem_id) -> None:
     """Test getting a Rem by its Id."""
     rem = remnote.get_rem_by_name(REM_KEY, REM_USER, "Testing")
     assert rem is not None
-    print(rem.name_md + ":: " + rem.content_md)
     # BUG: will fail when running test for the second time, as deletion is not
     # working. Must delete created Rems manually.
     assert rem.rem_id == example_rem_id
     assert "create " in rem.content
+    rem_source = rem.source[0]
+    if isinstance(rem_source, dict):
+        assert rem_source["url"] == "http://example.com/"
+    else:
+        assert rem_source == "http://example.com/"
+
+
+def test_get_rem_by_source(example_rem_id) -> None:
+    """Test getting a Rem by its source URL."""
+    rem = remnote.get_rem_by_source(REM_KEY, REM_USER, "http://example.com/")
+    assert rem is not None
+    # BUG: will fail when running test for the second time, as deletion is not
+    # working. Must delete created Rems manually.
+    assert rem.rem_id == example_rem_id
+    assert "create " in rem.content
+    rem_source = rem.source[0]
+    if isinstance(rem_source, dict):
+        assert rem_source["url"] == "http://example.com/"
+    else:
+        assert rem_source == "http://example.com/"
 
 
 def test_update_rem(example_rem_id) -> None:
     """Test updating a Rem."""
-    rem_id = remnote.update_rem(
+    updated_rem_id = remnote.update_rem(
         REM_KEY, REM_USER, example_rem_id, content="update [[Rem]]"
     )
-    assert rem_id == example_rem_id
-    rem = remnote.get_rem_by_id(REM_KEY, REM_USER, example_rem_id)
+    assert updated_rem_id == example_rem_id
+    rem = remnote.get_rem_by_id(REM_KEY, REM_USER, updated_rem_id)
     assert rem is not None
+    assert rem.rem_id == example_rem_id
     assert "update " in rem.content
+    rem_source = rem.source[0]
+    if isinstance(rem_source, dict):
+        assert rem_source["url"] == "http://example.com/"
+    else:
+        assert rem_source == "http://example.com/"

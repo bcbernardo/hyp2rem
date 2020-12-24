@@ -84,7 +84,7 @@ def get_rem_by_id(
         response_body = response.json()
         assert response_body["found"]
     except (KeyError, AssertionError):
-        log.error(f"No Rem found with Id '{rem_id}' in current scope.")
+        log.warn(f"No Rem found with Id '{rem_id}' in current scope.")
         return None
     log.debug(json.dumps(response_body))
     rem = Rem(
@@ -134,7 +134,57 @@ def get_rem_by_name(
         response_body = response.json()
         assert response_body["found"]
     except (KeyError, AssertionError):
-        log.error(f"No Rem found with name '{name}' in current scope.")
+        log.warn(f"No Rem found with name '{name}' in current scope.")
+        return None
+    log.debug(json.dumps(response_body))
+    rem = Rem(
+        rem_id=response_body["_id"],
+        parent=response_body.get("parent"),
+        children=response_body["children"],
+        name=response_body["name"],
+        name_md=response_body["nameAsMarkdown"],
+        content=response_body.get("content", ""),
+        content_md=response_body.get("contentAsMarkdown", ""),
+        source=response_body["source"],
+        rem_type=RemType(response_body["remType"]),
+        is_document=response_body["isDocument"],
+        visible_in=response_body["visibleRemOnDocument"],
+        updated=datetime.fromtimestamp(response_body["updatedAt"] / 1000),
+        created=datetime.fromtimestamp(response_body["createdAt"] / 1000),
+        tags=response_body["tagParents"],
+        tag_children=response_body["tagChildren"],
+    )
+    log.debug(f"Found Rem: '{rem.name}', id '{rem.rem_id}'.")
+    return rem
+
+
+def get_rem_by_source(
+    api_key: str,
+    user_id: str,
+    source: str,
+    parent_id: Optional[RemId] = None,
+) -> Union[Rem, None]:
+    """Get a Rem by the source URL it is linked to."""
+    log.info(f"Searching Rem linked to source <{source}>)...'")
+    # define request
+    endpoint = REM_BASE_URL + "/get_by_source_url"
+    data = {
+        "apiKey": api_key,
+        "userId": user_id,
+        "url": source,
+        "parentId": parent_id,
+    }
+    # post data
+    response = requests.post(endpoint, data)
+    # check response status
+    if response.status_code != 200:
+        log.error("Failed to fetch Rem. Error " + str(response.status_code))
+        raise requests.HTTPError
+    try:
+        response_body = response.json()
+        assert response_body["found"]
+    except (KeyError, AssertionError):
+        log.warn(f"No Rem found with source <{source}> in current scope.")
         return None
     log.debug(json.dumps(response_body))
     rem = Rem(
