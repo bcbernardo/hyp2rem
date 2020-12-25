@@ -25,6 +25,7 @@ from typing import Any, List, NewType, Optional, Union
 
 import log  # type: ignore
 import requests
+from memoization import cached
 
 REM_BASE_URL: str = "https://api.remnote.io/api/v0"
 
@@ -62,6 +63,7 @@ class Rem:
     parent: Optional[RemId] = None
 
 
+@cached
 def get_rem_by_id(
     api_key: str, user_id: str, rem_id: RemId
 ) -> Union[Rem, None]:
@@ -108,6 +110,7 @@ def get_rem_by_id(
     return rem
 
 
+@cached
 def get_rem_by_name(
     api_key: str,
     user_id: str,
@@ -158,6 +161,7 @@ def get_rem_by_name(
     return rem
 
 
+@cached
 def get_rem_by_source(
     api_key: str,
     user_id: str,
@@ -274,6 +278,10 @@ def update_rem(
         log.error("Failed to update Rem. Error " + str(response.status_code))
         raise requests.HTTPError
     log.debug("Updated Rem successfully.")
+    # clear cache for get_rem_by_* functions, as Rems might have changed
+    globals()["get_rem_by_id"].cache_clear()
+    globals()["get_rem_by_name"].cache_clear()
+    globals()["get_rem_by_source"].cache_clear()
     return rem_id
 
 
