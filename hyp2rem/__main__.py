@@ -26,6 +26,7 @@ from typing import Optional
 import log  # type: ignore
 from typer import Option, Typer, echo
 
+import hyp2rem.utils
 from hyp2rem import hypothesis as hyp
 
 app = Typer()
@@ -59,20 +60,20 @@ def main(  # type: ignore
         help="API key for Hypothes.is account",
         show_default=False,
     ),
-    # rem_user: str = Option(
-    #     ...,
-    #     envvar="REM_USERID",
-    #     prompt=True,
-    #     help="User ID for RemNote account",
-    #     show_default=False,
-    # ),
-    # rem_key: str = Option(
-    #     ...,
-    #     envvar="REM_KEY",
-    #     prompt=True,
-    #     help="API key for RemNote account",
-    #     show_default=False,
-    # ),
+    rem_user: str = Option(
+        ...,
+        envvar="REM_USER",
+        prompt=True,
+        help="User ID for RemNote account",
+        show_default=False,
+    ),
+    rem_key: str = Option(
+        ...,
+        envvar="REM_KEY",
+        prompt=True,
+        help="API key for RemNote account",
+        show_default=False,
+    ),
     uri: Optional[str] = Option(
         None,
         help="A web page address (URL) or a URN representing another kind "
@@ -96,6 +97,7 @@ def main(  # type: ignore
     """
     Sync Hypothes.is annotations with Rem's in a RemNote account.
     """
+    # pylint: disable=too-many-locals
     if quiet:
         verbosity: int = 0  # Only errors (ERROR)
     elif verbose:
@@ -130,7 +132,13 @@ def main(  # type: ignore
         uri=uri,
     )
     if verbosity > 2:
-        echo(json.dumps(annotations))
+        echo(json.dumps(annotations, indent=4))
+    for annotation in annotations:
+        document = hyp2rem.utils.document_for_source(
+            rem_key, rem_user, annotation
+        )
+        if verbosity > 2:
+            echo(document)
 
 
 if __name__ == "__main__":
