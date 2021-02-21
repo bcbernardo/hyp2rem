@@ -18,16 +18,17 @@ Note:
 """
 
 
-import json
 from datetime import datetime
 from enum import Enum
-from typing import Optional
+from typing import Literal, Optional
 
 import log  # type: ignore
+from dotenv import load_dotenv
 from typer import Option, Typer, echo
 
-import hyp2rem.utils
-from hyp2rem import hypothesis as hyp
+from hyp2rem.hyp2rem import Bridge
+from hyp2rem.hypothesis.clients import HypothesisV1Client
+from hyp2rem.remnote.clients import RemNoteV0Client
 
 app = Typer()
 
@@ -35,23 +36,31 @@ app = Typer()
 class SortOption(str, Enum):
     """Sorting options supported by Hypothes.is API."""
 
-    created: str = "created"
-    updated: str = "updated"
+    CREATED: Literal["created"] = "created"
+    UPDATED: Literal["updated"] = "updated"
 
 
 @app.command()
 def main(  # type: ignore
-    hyp_group: Optional[str] = Option(
+    group: Optional[str] = Option(  # TODO: Accept multiple groups
         None,
         help="Name of the Hypothes.is group where annotations are stored",
         show_default=False,
     ),
     sort: SortOption = Option(
-        SortOption.created, help="Metric to sort results by"
+        SortOption.UPDATED,
+        help="Metric to sort results by",
+        case_sensitive=False,
     ),
     after: Optional[datetime] = Option(
         None,
         help="Search for annotations created ou updated after the given date",
+    ),
+    uri: Optional[str] = Option(
+        None,
+        help="A web page address (URL) or a URN representing another kind "
+        + "of resource whose annotations should be synced.",
+        show_default=False,
     ),
     hyp_key: str = Option(
         ...,
@@ -74,13 +83,6 @@ def main(  # type: ignore
         help="API key for RemNote account",
         show_default=False,
     ),
-    uri: Optional[str] = Option(
-        None,
-        help="A web page address (URL) or a URN representing another kind "
-        + "of resource such as DOI (Digital Object Identifier) or a PDF "
-        + "fingerprint.",
-        show_default=False,
-    ),
     quiet: bool = Option(
         False,
         help="Silences the output printed to the terminal.",
@@ -98,48 +100,39 @@ def main(  # type: ignore
     Sync Hypothes.is annotations with Rem's in a RemNote account.
     """
     # pylint: disable=too-many-locals
+
+    # set verbosity levels and initialize logs
+    verbosity: int = 1  # Errors and warnings (WARN) - Default
     if quiet:
-        verbosity: int = 0  # Only errors (ERROR)
+        verbosity = 0  # Only errors (ERROR)
     elif verbose:
         verbosity = 2  # Errors, warnings and information (INFO)
     elif debug:
         verbosity = 3  # All possible output (DEBUG)
-    else:
-        verbosity = 1  # Errors and warnings (WARN) - Default
     log.reset()
     log.init(verbosity=verbosity)
-    # get group id, if a group name was provided
-    group_id = None
-    if hyp_group is not None:
-        group = hyp.get_group_by_name(key=hyp_key, name=hyp_group)
-        if group is not None:
-            group_id = group["id"]
-        else:
-            log.error(
-                "Group name was set, but not found in server. Cannot proceed."
-            )
-            raise ValueError
-    # `after` option back to ISO string
-    if isinstance(after, datetime):
-        after = after.isoformat()  # type: ignore
-    # fetch relevant annotations
-    annotations = hyp.get_annotations(
-        key=hyp_key,
-        group=group_id,
+
+    # set up Hypothes.is and RemNote connections
+    hyp_client: HypothesisV1Client = HypothesisV1Client(
+        group_name=group,
         sort=sort,
         order="asc",
         search_after=after,
         uri=uri,
+        key=hyp_key,
     )
-    if verbosity > 2:
-        echo(json.dumps(annotations, indent=4))
-    for annotation in annotations:
-        document = hyp2rem.utils.document_for_source(
-            rem_key, rem_user, annotation
-        )
-        if verbosity > 2:
-            echo(document)
+    rem_client: RemNoteV0Client = RemNoteV0Client(
+        key=rem_key,
+        user_id=rem_user,
+    )
+
+    # set up Bridge object between fetched annotations and RemNote
+    bridge: Bridge = Bridge(hyp_client, rem_client)
+    bridge.sync_all()
+    if verbosity > 1:
+        echo(bridge.stats)
 
 
 if __name__ == "__main__":
+    load_dotenv()
     app(prog_name="hyp2rem")

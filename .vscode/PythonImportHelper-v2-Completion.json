@@ -1,0 +1,1498 @@
+[
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Mapping",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ForwardRef",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Mapping",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "NewType",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Mapping",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Mapping",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "NewType",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Mapping",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Mapping",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "log",
+        "description": "log",
+        "detail": "log",
+        "documentation": {}
+    },
+    {
+        "label": "AnyUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "HttpUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validate_arguments",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "AnyHttpUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "AnyUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "PrivateAttr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "AnyUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "HttpUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validate_arguments",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "AnyUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "PrivateAttr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "AnyUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "lrucache",
+        "importPath": "pylru",
+        "description": "pylru",
+        "isExtraImport": true,
+        "detail": "pylru",
+        "documentation": {}
+    },
+    {
+        "label": "lrudecorator",
+        "importPath": "pylru",
+        "description": "pylru",
+        "isExtraImport": true,
+        "detail": "pylru",
+        "documentation": {}
+    },
+    {
+        "label": "lrucache",
+        "importPath": "pylru",
+        "description": "pylru",
+        "isExtraImport": true,
+        "detail": "pylru",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPError",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPError",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBasicAuth",
+        "importPath": "requests.auth",
+        "description": "requests.auth",
+        "isExtraImport": true,
+        "detail": "requests.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AuthBase",
+        "importPath": "requests.auth",
+        "description": "requests.auth",
+        "isExtraImport": true,
+        "detail": "requests.auth",
+        "documentation": {}
+    },
+    {
+        "label": "MissingAuthorizationTokenError",
+        "importPath": "hyp2rem.exceptions",
+        "description": "hyp2rem.exceptions",
+        "isExtraImport": true,
+        "detail": "hyp2rem.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ParentNotSyncedError",
+        "importPath": "hyp2rem.exceptions",
+        "description": "hyp2rem.exceptions",
+        "isExtraImport": true,
+        "detail": "hyp2rem.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SiblingNotSyncedError",
+        "importPath": "hyp2rem.exceptions",
+        "description": "hyp2rem.exceptions",
+        "isExtraImport": true,
+        "detail": "hyp2rem.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Annotation",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnnotationId",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "ApiKey",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "ClientId",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "ClientSecret",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "GroupId",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "MimeType",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Permissions",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Target",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfile",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Annotation",
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "hyp2rem.utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hyp2rem.utils",
+        "description": "hyp2rem.utils",
+        "detail": "hyp2rem.utils",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearerAuth",
+        "importPath": "hyp2rem.utils",
+        "description": "hyp2rem.utils",
+        "isExtraImport": true,
+        "detail": "hyp2rem.utils",
+        "documentation": {}
+    },
+    {
+        "label": "UpdatePolicy",
+        "importPath": "hyp2rem.utils",
+        "description": "hyp2rem.utils",
+        "isExtraImport": true,
+        "detail": "hyp2rem.utils",
+        "documentation": {}
+    },
+    {
+        "label": "attrgetter",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "attrgetter",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic.error_wrappers",
+        "description": "pydantic.error_wrappers",
+        "isExtraImport": true,
+        "detail": "pydantic.error_wrappers",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic.error_wrappers",
+        "description": "pydantic.error_wrappers",
+        "isExtraImport": true,
+        "detail": "pydantic.error_wrappers",
+        "documentation": {}
+    },
+    {
+        "label": "ApiKey",
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rem",
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemId",
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rem",
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemId",
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "isExtraImport": true,
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "HypothesisV1Client",
+        "importPath": "hyp2rem.hypothesis.clients",
+        "description": "hyp2rem.hypothesis.clients",
+        "isExtraImport": true,
+        "detail": "hyp2rem.hypothesis.clients",
+        "documentation": {}
+    },
+    {
+        "label": "RemNoteV0Client",
+        "importPath": "hyp2rem.remnote.clients",
+        "description": "hyp2rem.remnote.clients",
+        "isExtraImport": true,
+        "detail": "hyp2rem.remnote.clients",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "hypothesis",
+        "importPath": "hyp2rem",
+        "description": "hyp2rem",
+        "isExtraImport": true,
+        "detail": "hyp2rem",
+        "documentation": {}
+    },
+    {
+        "label": "remnote",
+        "importPath": "hyp2rem",
+        "description": "hyp2rem",
+        "isExtraImport": true,
+        "detail": "hyp2rem",
+        "documentation": {}
+    },
+    {
+        "label": "hypothesis",
+        "importPath": "hyp2rem",
+        "description": "hyp2rem",
+        "isExtraImport": true,
+        "detail": "hyp2rem",
+        "documentation": {}
+    },
+    {
+        "label": "remnote",
+        "importPath": "hyp2rem",
+        "description": "hyp2rem",
+        "isExtraImport": true,
+        "detail": "hyp2rem",
+        "documentation": {}
+    },
+    {
+        "label": "CliRunner",
+        "importPath": "typer.testing",
+        "description": "typer.testing",
+        "isExtraImport": true,
+        "detail": "typer.testing",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "hyp2rem.__main__",
+        "description": "hyp2rem.__main__",
+        "isExtraImport": true,
+        "detail": "hyp2rem.__main__",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "importlib_load_entry_point",
+        "kind": 2,
+        "importPath": ".venv.Scripts.hyp2rem-script",
+        "description": ".venv.Scripts.hyp2rem-script",
+        "peekOfCode": "def importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')\n    matches = (\n        entry_point\n        for entry_point in distribution(dist_name).entry_points\n        if entry_point.group == group and entry_point.name == name\n    )\n    return next(matches).load()\nglobals().setdefault('load_entry_point', importlib_load_entry_point)\nif __name__ == '__main__':",
+        "detail": ".venv.Scripts.hyp2rem-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": ".venv.Scripts.hyp2rem-script",
+        "description": ".venv.Scripts.hyp2rem-script",
+        "peekOfCode": "__requires__ = 'hyp2rem'\ntry:\n    from importlib.metadata import distribution\nexcept ImportError:\n    try:\n        from importlib_metadata import distribution\n    except ImportError:\n        from pkg_resources import load_entry_point\ndef importlib_load_entry_point(spec, group, name):\n    dist_name, _, _ = spec.partition('==')",
+        "detail": ".venv.Scripts.hyp2rem-script",
+        "documentation": {}
+    },
+    {
+        "label": "HypothesisV1Client",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.clients",
+        "description": "hyp2rem.hypothesis.clients",
+        "peekOfCode": "class HypothesisV1Client(object):\n    \"\"\"Client for Hypothes.is Annotations API (v1).\n    Args:\n        group_name: An optional name of the group to filter annotations by.\n        key: A developer token for accessing the Hypothes.is API\n        client_id: An OAuth-generated ClientId.\n        client_secret: An OAuth-generated ClientSecret.\n        **kwargs: Additional parameters for the ``search_annotations`` method.\n    Note:\n        You must provide either a ``key``, or a ``client_id`` and",
+        "detail": "hyp2rem.hypothesis.clients",
+        "documentation": {}
+    },
+    {
+        "label": "Permissions",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Permissions(BaseModel):\n    \"\"\"Permission settings for a Hypothes.is annotation.\"\"\"\n    read: List[Union[UserId, str]]\n    admin: List[Union[UserId, str]]\n    update: List[Union[UserId, str]]\n    delete: List[Union[UserId, str]]\nclass RangeSelector(BaseModel):\n    \"\"\"Describes a range of text by using XPath and TextPosition Selectors.\"\"\"\n    selector_type: Literal[\"RangeSelector\"] = \"RangeSelector\"\n    start_container: XPath",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "RangeSelector",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class RangeSelector(BaseModel):\n    \"\"\"Describes a range of text by using XPath and TextPosition Selectors.\"\"\"\n    selector_type: Literal[\"RangeSelector\"] = \"RangeSelector\"\n    start_container: XPath\n    start_offset: int\n    end_container: XPath\n    end_offset: int\n    class Config:\n        fields = {\n            \"selector_type\": \"type\",",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "TextPositionSelector",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class TextPositionSelector(BaseModel):\n    \"\"\"Describes a range of text by the start and end positions in the stream.\"\"\"\n    selector_type: Literal[\"TextPositionSelector\"] = \"TextPositionSelector\"\n    start: int\n    end: int\n    class Config:\n        fields = {\"selector_type\": \"type\"}\nclass TextQuoteSelector(BaseModel):\n    \"\"\"Describes a range of text by a copy of it, a prefix and a suffix.\"\"\"\n    selector_type: Literal[\"TextQuoteSelector\"] = \"TextQuoteSelector\"",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "TextQuoteSelector",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class TextQuoteSelector(BaseModel):\n    \"\"\"Describes a range of text by a copy of it, a prefix and a suffix.\"\"\"\n    selector_type: Literal[\"TextQuoteSelector\"] = \"TextQuoteSelector\"\n    exact: str\n    prefix: str\n    suffix: str\n    class Config:\n        fields = {\"selector_type\": \"type\"}\nclass Selector(BaseModel):\n    \"\"\"A generic class for selecting between multiple *Selector classes.\"\"\"",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Selector",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Selector(BaseModel):\n    \"\"\"A generic class for selecting between multiple *Selector classes.\"\"\"\n    def __new__(cls, **data):\n        selector_type: SupportedSelectorType = data[\"type\"]\n        if selector_type == \"RangeSelector\":\n            return RangeSelector(**data)\n        elif selector_type == \"TextPositionSelector\":\n            return TextPositionSelector(**data)\n        elif selector_type == \"TextQuoteSelector\":\n            return TextQuoteSelector(**data)",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Target",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Target(BaseModel):\n    \"\"\"Target webpage or document for a Hypothes.is annotation.\"\"\"\n    source: Optional[Union[AnyUrl, str]]  # TODO: better support for URN\n    selector: Optional[List[Selector]] = None\nclass Links(BaseModel):\n    \"\"\"Hypermedia links for an annotation.\"\"\"\n    html: Optional[AnyHttpUrl] = None\n    in_context: Optional[AnyHttpUrl] = None\n    json_: Optional[AnyHttpUrl] = None\n    class Config:",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Links",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Links(BaseModel):\n    \"\"\"Hypermedia links for an annotation.\"\"\"\n    html: Optional[AnyHttpUrl] = None\n    in_context: Optional[AnyHttpUrl] = None\n    json_: Optional[AnyHttpUrl] = None\n    class Config:\n        fields = {\"in_context\": \"incontext\", \"json_\": \"json\"}\nclass UserInfo(BaseModel):\n    \"\"\"An annotation creator's information (display name).\"\"\"\n    display_name: Optional[str]",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserInfo",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class UserInfo(BaseModel):\n    \"\"\"An annotation creator's information (display name).\"\"\"\n    display_name: Optional[str]\nclass Moderation(BaseModel):\n    flag_count: Optional[int]\n    class Config:\n        fields = {\"flag_count\": \"flagCount\"}\nclass DC(BaseModel):\n    identifier: Optional[List[str]] = None\nclass Highwire(BaseModel):",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Moderation",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Moderation(BaseModel):\n    flag_count: Optional[int]\n    class Config:\n        fields = {\"flag_count\": \"flagCount\"}\nclass DC(BaseModel):\n    identifier: Optional[List[str]] = None\nclass Highwire(BaseModel):\n    doi: Optional[List[DOI]] = None\n    pdf_url: Optional[List[AnyUrl]] = None\nclass DocumentLink(BaseModel):",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "DC",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class DC(BaseModel):\n    identifier: Optional[List[str]] = None\nclass Highwire(BaseModel):\n    doi: Optional[List[DOI]] = None\n    pdf_url: Optional[List[AnyUrl]] = None\nclass DocumentLink(BaseModel):\n    href: Optional[AnyUrl] = None\n    link_type: Optional[LinkType] = None\n    class Config:\n        fields = {\"link_type\": \"type\"}",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Highwire",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Highwire(BaseModel):\n    doi: Optional[List[DOI]] = None\n    pdf_url: Optional[List[AnyUrl]] = None\nclass DocumentLink(BaseModel):\n    href: Optional[AnyUrl] = None\n    link_type: Optional[LinkType] = None\n    class Config:\n        fields = {\"link_type\": \"type\"}\nclass Document(BaseModel):\n    title: Optional[List[str]] = None",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentLink",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class DocumentLink(BaseModel):\n    href: Optional[AnyUrl] = None\n    link_type: Optional[LinkType] = None\n    class Config:\n        fields = {\"link_type\": \"type\"}\nclass Document(BaseModel):\n    title: Optional[List[str]] = None\n    dc: Optional[DC] = None\n    highwire: Optional[Highwire] = None\n    link: Optional[DocumentLink] = None",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Document(BaseModel):\n    title: Optional[List[str]] = None\n    dc: Optional[DC] = None\n    highwire: Optional[Highwire] = None\n    link: Optional[DocumentLink] = None\nclass Annotation(BaseModel):\n    \"\"\"A Hypothes.is annotation.\n    Full representation of Annotation resource and applicable relationships,\n    according to Hypothes.is' v1 API specifications.\n    \"\"\"",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Annotation",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Annotation(BaseModel):\n    \"\"\"A Hypothes.is annotation.\n    Full representation of Annotation resource and applicable relationships,\n    according to Hypothes.is' v1 API specifications.\n    \"\"\"\n    # FIXME: should be \"context: HypothesisV1Client\", but it causes a mess\n    context: object\n    annotation_id: AnnotationId\n    created: datetime\n    updated: datetime",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Organization",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Organization(BaseModel):\n    organization_id: OrganizationId\n    default: bool\n    name: str\n    logo: Optional[AnyHttpUrl] = None\n    class Config:\n        fields: {\"organization_id\": \"id\"}\nclass Scopes(BaseModel):\n    enforced: bool\n    uri_patterns: List[str]",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Scopes",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Scopes(BaseModel):\n    enforced: bool\n    uri_patterns: List[str]\nclass Group(BaseModel):\n    group_id: GroupId\n    name: str\n    links: Links\n    scopes: Optional[Scopes]\n    group_type: Literal[\"private\", \"open\", \"restricted\"]\n    authority_group_id: Optional[GroupId] = None",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class Group(BaseModel):\n    group_id: GroupId\n    name: str\n    links: Links\n    scopes: Optional[Scopes]\n    group_type: Literal[\"private\", \"open\", \"restricted\"]\n    authority_group_id: Optional[GroupId] = None\n    organization: Union[OrganizationId, Organization, None] = None\n    public: Optional[bool] = None\n    class Config:",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfile",
+        "kind": 6,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "class UserProfile(BaseModel):\n    \"\"\"Profile information for an authenticated user.\"\"\"\n    authority: str\n    features: Mapping[str, bool]\n    preferences: Mapping[str, bool]\n    user_id: UserId\n    class Config:\n        fields: {\"user_id\": \"userid\"}",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "AnnotationId",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "AnnotationId = NewType(\"AnnotationId\", str)\n\"\"\"Unique identifier for a Hypothes.is annotation.\"\"\"\nApiKey = NewType(\"ApiKey\", str)\n\"\"\"Personal access token for the Hypothes.is API.\"\"\"\nClientId = NewType(\"ClientId\", str)\n\"\"\"OAuth-generated Client Id, for authorized applications.\"\"\"\nClientSecret = NewType(\"ClientSecret\", str)\n\"\"\"OAuth-generated Client Secret, for authorized applications.\"\"\"\nDOI = NewType(\"DOI\", str)\nGroupId = NewType(\"GroupId\", str)",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "ApiKey",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "ApiKey = NewType(\"ApiKey\", str)\n\"\"\"Personal access token for the Hypothes.is API.\"\"\"\nClientId = NewType(\"ClientId\", str)\n\"\"\"OAuth-generated Client Id, for authorized applications.\"\"\"\nClientSecret = NewType(\"ClientSecret\", str)\n\"\"\"OAuth-generated Client Secret, for authorized applications.\"\"\"\nDOI = NewType(\"DOI\", str)\nGroupId = NewType(\"GroupId\", str)\n\"\"\"Unique identifier for a Hypothes.is group.\"\"\"\nLinkType = NewType(\"LinkType\", str)",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "ClientId",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "ClientId = NewType(\"ClientId\", str)\n\"\"\"OAuth-generated Client Id, for authorized applications.\"\"\"\nClientSecret = NewType(\"ClientSecret\", str)\n\"\"\"OAuth-generated Client Secret, for authorized applications.\"\"\"\nDOI = NewType(\"DOI\", str)\nGroupId = NewType(\"GroupId\", str)\n\"\"\"Unique identifier for a Hypothes.is group.\"\"\"\nLinkType = NewType(\"LinkType\", str)\nMimeType = NewType(\"MimeType\", str)\nOrganizationId = NewType(\"OrganizationId\", str)",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "ClientSecret",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "ClientSecret = NewType(\"ClientSecret\", str)\n\"\"\"OAuth-generated Client Secret, for authorized applications.\"\"\"\nDOI = NewType(\"DOI\", str)\nGroupId = NewType(\"GroupId\", str)\n\"\"\"Unique identifier for a Hypothes.is group.\"\"\"\nLinkType = NewType(\"LinkType\", str)\nMimeType = NewType(\"MimeType\", str)\nOrganizationId = NewType(\"OrganizationId\", str)\n\"\"\"Unique identifier for a organization registered in Hypothes.is.\"\"\"\nSupportedSelectorType = Literal[",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "DOI",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "DOI = NewType(\"DOI\", str)\nGroupId = NewType(\"GroupId\", str)\n\"\"\"Unique identifier for a Hypothes.is group.\"\"\"\nLinkType = NewType(\"LinkType\", str)\nMimeType = NewType(\"MimeType\", str)\nOrganizationId = NewType(\"OrganizationId\", str)\n\"\"\"Unique identifier for a organization registered in Hypothes.is.\"\"\"\nSupportedSelectorType = Literal[\n    \"RangeSelector\", \"TextPositionSelector\", \"TextQuoteSelector\"\n]",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "GroupId",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "GroupId = NewType(\"GroupId\", str)\n\"\"\"Unique identifier for a Hypothes.is group.\"\"\"\nLinkType = NewType(\"LinkType\", str)\nMimeType = NewType(\"MimeType\", str)\nOrganizationId = NewType(\"OrganizationId\", str)\n\"\"\"Unique identifier for a organization registered in Hypothes.is.\"\"\"\nSupportedSelectorType = Literal[\n    \"RangeSelector\", \"TextPositionSelector\", \"TextQuoteSelector\"\n]\nUserId = NewType(\"UserId\", str)",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "LinkType",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "LinkType = NewType(\"LinkType\", str)\nMimeType = NewType(\"MimeType\", str)\nOrganizationId = NewType(\"OrganizationId\", str)\n\"\"\"Unique identifier for a organization registered in Hypothes.is.\"\"\"\nSupportedSelectorType = Literal[\n    \"RangeSelector\", \"TextPositionSelector\", \"TextQuoteSelector\"\n]\nUserId = NewType(\"UserId\", str)\n\"\"\"Unique identifier for a Hypothes.is user.\"\"\"\nXPath = NewType(\"XPath\", str)",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "MimeType",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "MimeType = NewType(\"MimeType\", str)\nOrganizationId = NewType(\"OrganizationId\", str)\n\"\"\"Unique identifier for a organization registered in Hypothes.is.\"\"\"\nSupportedSelectorType = Literal[\n    \"RangeSelector\", \"TextPositionSelector\", \"TextQuoteSelector\"\n]\nUserId = NewType(\"UserId\", str)\n\"\"\"Unique identifier for a Hypothes.is user.\"\"\"\nXPath = NewType(\"XPath\", str)\nclass Permissions(BaseModel):",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrganizationId",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "OrganizationId = NewType(\"OrganizationId\", str)\n\"\"\"Unique identifier for a organization registered in Hypothes.is.\"\"\"\nSupportedSelectorType = Literal[\n    \"RangeSelector\", \"TextPositionSelector\", \"TextQuoteSelector\"\n]\nUserId = NewType(\"UserId\", str)\n\"\"\"Unique identifier for a Hypothes.is user.\"\"\"\nXPath = NewType(\"XPath\", str)\nclass Permissions(BaseModel):\n    \"\"\"Permission settings for a Hypothes.is annotation.\"\"\"",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "SupportedSelectorType",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "SupportedSelectorType = Literal[\n    \"RangeSelector\", \"TextPositionSelector\", \"TextQuoteSelector\"\n]\nUserId = NewType(\"UserId\", str)\n\"\"\"Unique identifier for a Hypothes.is user.\"\"\"\nXPath = NewType(\"XPath\", str)\nclass Permissions(BaseModel):\n    \"\"\"Permission settings for a Hypothes.is annotation.\"\"\"\n    read: List[Union[UserId, str]]\n    admin: List[Union[UserId, str]]",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "UserId = NewType(\"UserId\", str)\n\"\"\"Unique identifier for a Hypothes.is user.\"\"\"\nXPath = NewType(\"XPath\", str)\nclass Permissions(BaseModel):\n    \"\"\"Permission settings for a Hypothes.is annotation.\"\"\"\n    read: List[Union[UserId, str]]\n    admin: List[Union[UserId, str]]\n    update: List[Union[UserId, str]]\n    delete: List[Union[UserId, str]]\nclass RangeSelector(BaseModel):",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "XPath",
+        "kind": 5,
+        "importPath": "hyp2rem.hypothesis.models",
+        "description": "hyp2rem.hypothesis.models",
+        "peekOfCode": "XPath = NewType(\"XPath\", str)\nclass Permissions(BaseModel):\n    \"\"\"Permission settings for a Hypothes.is annotation.\"\"\"\n    read: List[Union[UserId, str]]\n    admin: List[Union[UserId, str]]\n    update: List[Union[UserId, str]]\n    delete: List[Union[UserId, str]]\nclass RangeSelector(BaseModel):\n    \"\"\"Describes a range of text by using XPath and TextPosition Selectors.\"\"\"\n    selector_type: Literal[\"RangeSelector\"] = \"RangeSelector\"",
+        "detail": "hyp2rem.hypothesis.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemNoteV0Client",
+        "kind": 6,
+        "importPath": "hyp2rem.remnote.clients",
+        "description": "hyp2rem.remnote.clients",
+        "peekOfCode": "class RemNoteV0Client(object):\n    \"\"\"Client for exchanging data with RemNote's V0 API.\n    Args:\n        key: RemNote client key/token for accessing the API.\n        user_id: RemNote unique client id.\n    Warning:\n        RemNote's API is currently unstable (v0), and can break at any time.\n        Check the API documentation (<https://www.remnote.io/api>) and release\n        updates (<https://www.remnote.io/updates>) for possible changes that\n        may cause this client to become inoperative.",
+        "detail": "hyp2rem.remnote.clients",
+        "documentation": {}
+    },
+    {
+        "label": "RemType",
+        "kind": 6,
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "peekOfCode": "class RemType(str, Enum):\n    \"\"\"Enumeration of possible Rem types\"\"\"\n    concept: Literal[\"concept\"] = \"concept\"\n    descriptor: Literal[\"descriptor\"] = \"descriptor\"\n    no_content: Literal[\"no_content\"] = \"no_content\"\nclass Rem(BaseModel):\n    \"\"\"Representation of a Rem returned by RemNote's V0 get_by_* methods.\"\"\"\n    children: List[RemId]\n    created: datetime\n    name: RichText",
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rem",
+        "kind": 6,
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "peekOfCode": "class Rem(BaseModel):\n    \"\"\"Representation of a Rem returned by RemNote's V0 get_by_* methods.\"\"\"\n    children: List[RemId]\n    created: datetime\n    name: RichText\n    name_md: str\n    rem_id: RemId\n    rem_type: RemType\n    source: RichText\n    tag_children: List[RemId]",
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "ApiKey",
+        "kind": 5,
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "peekOfCode": "ApiKey = NewType(\"ApiKey\", str)\n\"\"\"A RemNote-provided secret key for interacting with their API.\"\"\"\nRemId = NewType(\"RemId\", str)\n\"\"\"Rem Id's are alphanumeric strings generated automatically by RemNote.\"\"\"\nUserId = NewType(\"UserId\", str)\n\"\"\"Unique alphanumeric identifier for a RemNote user.\"\"\"\nRichText = List[Union[str, Mapping[str, Any]]]  # TODO: enhance definition\nclass RemType(str, Enum):\n    \"\"\"Enumeration of possible Rem types\"\"\"\n    concept: Literal[\"concept\"] = \"concept\"",
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "RemId",
+        "kind": 5,
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "peekOfCode": "RemId = NewType(\"RemId\", str)\n\"\"\"Rem Id's are alphanumeric strings generated automatically by RemNote.\"\"\"\nUserId = NewType(\"UserId\", str)\n\"\"\"Unique alphanumeric identifier for a RemNote user.\"\"\"\nRichText = List[Union[str, Mapping[str, Any]]]  # TODO: enhance definition\nclass RemType(str, Enum):\n    \"\"\"Enumeration of possible Rem types\"\"\"\n    concept: Literal[\"concept\"] = \"concept\"\n    descriptor: Literal[\"descriptor\"] = \"descriptor\"\n    no_content: Literal[\"no_content\"] = \"no_content\"",
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "kind": 5,
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "peekOfCode": "UserId = NewType(\"UserId\", str)\n\"\"\"Unique alphanumeric identifier for a RemNote user.\"\"\"\nRichText = List[Union[str, Mapping[str, Any]]]  # TODO: enhance definition\nclass RemType(str, Enum):\n    \"\"\"Enumeration of possible Rem types\"\"\"\n    concept: Literal[\"concept\"] = \"concept\"\n    descriptor: Literal[\"descriptor\"] = \"descriptor\"\n    no_content: Literal[\"no_content\"] = \"no_content\"\nclass Rem(BaseModel):\n    \"\"\"Representation of a Rem returned by RemNote's V0 get_by_* methods.\"\"\"",
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "RichText",
+        "kind": 5,
+        "importPath": "hyp2rem.remnote.models",
+        "description": "hyp2rem.remnote.models",
+        "peekOfCode": "RichText = List[Union[str, Mapping[str, Any]]]  # TODO: enhance definition\nclass RemType(str, Enum):\n    \"\"\"Enumeration of possible Rem types\"\"\"\n    concept: Literal[\"concept\"] = \"concept\"\n    descriptor: Literal[\"descriptor\"] = \"descriptor\"\n    no_content: Literal[\"no_content\"] = \"no_content\"\nclass Rem(BaseModel):\n    \"\"\"Representation of a Rem returned by RemNote's V0 get_by_* methods.\"\"\"\n    children: List[RemId]\n    created: datetime",
+        "detail": "hyp2rem.remnote.models",
+        "documentation": {}
+    },
+    {
+        "label": "ParentNotSyncedError",
+        "kind": 6,
+        "importPath": "hyp2rem.exceptions",
+        "description": "hyp2rem.exceptions",
+        "peekOfCode": "class ParentNotSyncedError(ValueError):\n    \"\"\"A Rem's parent is missing or is outdated.\"\"\"\n    def __init__(\n        self,\n        message: str = \"Cannot create or update an annotation whose parent has\"\n        + \"not been synced yet or is out-of-date.\",\n    ):\n        self.message = message\n        super().__init__(self.message)\nclass SiblingNotSyncedError(ValueError):",
+        "detail": "hyp2rem.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SiblingNotSyncedError",
+        "kind": 6,
+        "importPath": "hyp2rem.exceptions",
+        "description": "hyp2rem.exceptions",
+        "peekOfCode": "class SiblingNotSyncedError(ValueError):\n    \"\"\"A Rem's older sibling is missing or outdated.\"\"\"\n    def __init__(\n        self,\n        message: str = \"Cannot create or update an annotation whose older \"\n        + \"sibling has not been synced yet or is out-of-date.\",\n    ):\n        self.message = message\n        super().__init__(self.message)\nclass MissingAuthorizationTokenError(TypeError):",
+        "detail": "hyp2rem.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "MissingAuthorizationTokenError",
+        "kind": 6,
+        "importPath": "hyp2rem.exceptions",
+        "description": "hyp2rem.exceptions",
+        "peekOfCode": "class MissingAuthorizationTokenError(TypeError):\n    \"\"\"Credentials for accessing a web service are not available.\"\"\"\n    def __init__(\n        self,\n        message: str = \"Could not find one or more credentials required to\"\n        + \"access the specified resource.\",\n    ):\n        self.message = message\n        super().__init__(self.message)",
+        "detail": "hyp2rem.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Bridge",
+        "kind": 6,
+        "importPath": "hyp2rem.hyp2rem",
+        "description": "hyp2rem.hyp2rem",
+        "peekOfCode": "class Bridge(object):\n    \"\"\"Class that handles the upload of a list of annotations as RemNote Rems.\"\"\"\n    source_url_statement_template = (\n        \"Imported from Hypothes.is: < {source_url} >. \"\n    )\n    source_sync_statement_template = \"Last sync: {last_sync_iso}\"\n    source_statement_template = (\n        source_url_statement_template + source_sync_statement_template\n    )\n    def __init__(",
+        "detail": "hyp2rem.hyp2rem",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearerAuth",
+        "kind": 6,
+        "importPath": "hyp2rem.utils",
+        "description": "hyp2rem.utils",
+        "peekOfCode": "class HTTPBearerAuth(AuthBase):\n    \"\"\"Bearer authentication scheme for use with Requests package.\"\"\"\n    def __init__(self, key: str):\n        self.key = key\n    def __call__(self, r):\n        r.headers.update({\"Authorization\": \"Bearer \" + self.key})\n        return r\nclass UpdatePolicy(Enum):\n    \"\"\"Update policies to choose from.\n    Attributes:",
+        "detail": "hyp2rem.utils",
+        "documentation": {}
+    },
+    {
+        "label": "UpdatePolicy",
+        "kind": 6,
+        "importPath": "hyp2rem.utils",
+        "description": "hyp2rem.utils",
+        "peekOfCode": "class UpdatePolicy(Enum):\n    \"\"\"Update policies to choose from.\n    Attributes:\n        ALL: All target Rems will be updated when there are changes in the\n            associated annotations, as will also be their parent Rems and\n            and \"older siblings\" (Rems that come before it in the same\n            hierarchicall level).\n        SAFE: Only Rems that have not been modified manually after last sync\n            will be updated, as will be their parent Rems and older siblings.\n        SAFESTRICT: Only Rems that have not been modified manually after last",
+        "detail": "hyp2rem.utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_group_by_name",
+        "kind": 2,
+        "importPath": "tests.test_hypothesis",
+        "description": "tests.test_hypothesis",
+        "peekOfCode": "def test_get_group_by_name() -> None:\n    \"\"\"Try to get a group by its name and check returned value.\n    Note:\n        You must have a group named `RemNote` (case-sensitive) in your account\n        before running the test, for this to work.\n    \"\"\"\n    group_name: str = \"RemNote\"\n    remnote_group: Union[Mapping[str, Any], None] = hyp.get_group_by_name(\n        HYP_KEY,\n        group_name,",
+        "detail": "tests.test_hypothesis",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_annotations",
+        "kind": 2,
+        "importPath": "tests.test_hypothesis",
+        "description": "tests.test_hypothesis",
+        "peekOfCode": "def test_get_annotations() -> None:\n    \"\"\"Try to fetch public annotations for the Hypothes.is 'Quick Start Guide'.\"\"\"\n    quick_start_uri: str = \"https://web.hypothes.is/help/quick-start-guide/\"\n    quick_start_annotations: Sequence[Mapping[str, Any]] = hyp.get_annotations(\n        key=HYP_KEY,\n        uri=quick_start_uri,\n    )\n    # NOTE: 7 is the number of annotations the page had in 2020-12-12\n    assert len(quick_start_annotations) >= 7\n    # OPTIONAL: print(quick_start_annotations)",
+        "detail": "tests.test_hypothesis",
+        "documentation": {}
+    },
+    {
+        "label": "HYP_KEY",
+        "kind": 5,
+        "importPath": "tests.test_hypothesis",
+        "description": "tests.test_hypothesis",
+        "peekOfCode": "HYP_KEY = os.environ[\"HYP_KEY\"]\nlog.init(verbosity=4)\ndef test_get_group_by_name() -> None:\n    \"\"\"Try to get a group by its name and check returned value.\n    Note:\n        You must have a group named `RemNote` (case-sensitive) in your account\n        before running the test, for this to work.\n    \"\"\"\n    group_name: str = \"RemNote\"\n    remnote_group: Union[Mapping[str, Any], None] = hyp.get_group_by_name(",
+        "detail": "tests.test_hypothesis",
+        "documentation": {}
+    },
+    {
+        "label": "test_app",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_app() -> None:\n    \"\"\"Test CLI basic functionality.\n    Note:\n        This test considers that you have already added your Hypothes-is and\n        RemNote credentials to your environment (see documentation) and also\n        that you have an annotation group called \"RemNote\" (case-sensitive)\n        with some annotations on it.\n    \"\"\"\n    result = runner.invoke(\n        app,",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "runner",
+        "kind": 5,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "runner = CliRunner()\ndef test_app() -> None:\n    \"\"\"Test CLI basic functionality.\n    Note:\n        This test considers that you have already added your Hypothes-is and\n        RemNote credentials to your environment (see documentation) and also\n        that you have an annotation group called \"RemNote\" (case-sensitive)\n        with some annotations on it.\n    \"\"\"\n    result = runner.invoke(",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "example_rem_id",
+        "kind": 2,
+        "importPath": "tests.test_remnote",
+        "description": "tests.test_remnote",
+        "peekOfCode": "def example_rem_id() -> Generator[str, None, None]:\n    \"\"\"Generate a Rem, yield its Id for use in other tests, and delete it.\"\"\"\n    rem_id = remnote.create_rem(\n        REM_KEY,\n        REM_USER,\n        text=\"Testing:: create [[Rem]]\",\n        is_document=True,\n        source=\"http://example.com/\",\n    )\n    yield rem_id",
+        "detail": "tests.test_remnote",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_rem_by_id",
+        "kind": 2,
+        "importPath": "tests.test_remnote",
+        "description": "tests.test_remnote",
+        "peekOfCode": "def test_get_rem_by_id(example_rem_id) -> None:\n    \"\"\"Test getting a Rem by its Id.\"\"\"\n    rem = remnote.get_rem_by_id(REM_KEY, REM_USER, example_rem_id)\n    assert rem is not None\n    assert rem.name_md == \"Testing\"\n    assert \"create \" in rem.content\n    rem_source = rem.source[0]\n    if isinstance(rem_source, dict):\n        assert rem_source[\"url\"] == \"http://example.com/\"\n    else:",
+        "detail": "tests.test_remnote",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_rem_by_name",
+        "kind": 2,
+        "importPath": "tests.test_remnote",
+        "description": "tests.test_remnote",
+        "peekOfCode": "def test_get_rem_by_name(example_rem_id) -> None:\n    \"\"\"Test getting a Rem by its Id.\"\"\"\n    rem = remnote.get_rem_by_name(REM_KEY, REM_USER, \"Testing\")\n    assert rem is not None\n    # BUG: will fail when running test for the second time, as deletion is not\n    # working. Must delete created Rems manually.\n    assert rem.rem_id == example_rem_id\n    assert \"create \" in rem.content\n    rem_source = rem.source[0]\n    if isinstance(rem_source, dict):",
+        "detail": "tests.test_remnote",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_rem_by_source",
+        "kind": 2,
+        "importPath": "tests.test_remnote",
+        "description": "tests.test_remnote",
+        "peekOfCode": "def test_get_rem_by_source(example_rem_id) -> None:\n    \"\"\"Test getting a Rem by its source URL.\"\"\"\n    rem = remnote.get_rem_by_source(REM_KEY, REM_USER, \"http://example.com/\")\n    assert rem is not None\n    # BUG: will fail when running test for the second time, as deletion is not\n    # working. Must delete created Rems manually.\n    assert rem.rem_id == example_rem_id\n    assert \"create \" in rem.content\n    rem_source = rem.source[0]\n    if isinstance(rem_source, dict):",
+        "detail": "tests.test_remnote",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_rem",
+        "kind": 2,
+        "importPath": "tests.test_remnote",
+        "description": "tests.test_remnote",
+        "peekOfCode": "def test_update_rem(example_rem_id) -> None:\n    \"\"\"Test updating a Rem.\"\"\"\n    updated_rem_id = remnote.update_rem(\n        REM_KEY, REM_USER, example_rem_id, content=\"update [[Rem]]\"\n    )\n    assert updated_rem_id == example_rem_id\n    rem = remnote.get_rem_by_id(REM_KEY, REM_USER, updated_rem_id)\n    assert rem is not None\n    assert rem.rem_id == example_rem_id\n    assert \"update \" in rem.content",
+        "detail": "tests.test_remnote",
+        "documentation": {}
+    },
+    {
+        "label": "REM_KEY",
+        "kind": 5,
+        "importPath": "tests.test_remnote",
+        "description": "tests.test_remnote",
+        "peekOfCode": "REM_KEY = os.environ[\"REM_KEY\"]\nREM_USER = os.environ[\"REM_USER\"]\nlog.init(verbosity=4)\n@pytest.fixture(scope=\"module\")\ndef example_rem_id() -> Generator[str, None, None]:\n    \"\"\"Generate a Rem, yield its Id for use in other tests, and delete it.\"\"\"\n    rem_id = remnote.create_rem(\n        REM_KEY,\n        REM_USER,\n        text=\"Testing:: create [[Rem]]\",",
+        "detail": "tests.test_remnote",
+        "documentation": {}
+    },
+    {
+        "label": "REM_USER",
+        "kind": 5,
+        "importPath": "tests.test_remnote",
+        "description": "tests.test_remnote",
+        "peekOfCode": "REM_USER = os.environ[\"REM_USER\"]\nlog.init(verbosity=4)\n@pytest.fixture(scope=\"module\")\ndef example_rem_id() -> Generator[str, None, None]:\n    \"\"\"Generate a Rem, yield its Id for use in other tests, and delete it.\"\"\"\n    rem_id = remnote.create_rem(\n        REM_KEY,\n        REM_USER,\n        text=\"Testing:: create [[Rem]]\",\n        is_document=True,",
+        "detail": "tests.test_remnote",
+        "documentation": {}
+    },
+    {
+        "label": "test_document_for_source",
+        "kind": 2,
+        "importPath": "tests.test_utils",
+        "description": "tests.test_utils",
+        "peekOfCode": "def test_document_for_source():\n    \"\"\"Test creating/getting RemNote documents for Hypothes.is source URIs.\"\"\"\n    group_id = hyp.get_group_by_name(HYP_KEY, \"RemNote\")[\"id\"]\n    annotations = hyp.get_annotations(HYP_KEY, group=group_id)\n    for annotation in annotations:\n        document_rem = hyp2rem.utils.document_for_source(\n            REM_KEY,\n            REM_USER,\n            annotation=annotation,\n        )",
+        "detail": "tests.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_sync_first_level",
+        "kind": 2,
+        "importPath": "tests.test_utils",
+        "description": "tests.test_utils",
+        "peekOfCode": "def test_sync_first_level():\n    \"\"\"Test creating Rems for Hypothes.is top-level annotations.\"\"\"\n    group_id = hyp.get_group_by_name(HYP_KEY, \"RemNote\")[\"id\"]\n    annotations = hyp.get_annotations(HYP_KEY, group=group_id)\n    hyp2rem.utils.sync_first_level(\n        hyp_key=HYP_KEY,\n        rem_key=REM_KEY,\n        rem_user=REM_USER,\n        annotations=annotations,\n    )",
+        "detail": "tests.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_sync_replies",
+        "kind": 2,
+        "importPath": "tests.test_utils",
+        "description": "tests.test_utils",
+        "peekOfCode": "def test_sync_replies():\n    \"\"\"Test creating Rems for arbitrarily nested replies to Hyp-annotations.\"\"\"\n    group_id = hyp.get_group_by_name(HYP_KEY, \"RemNote\")[\"id\"]\n    annotations = hyp.get_annotations(HYP_KEY, group=group_id)\n    hyp2rem.utils.sync_replies(\n        hyp_key=HYP_KEY,\n        rem_key=REM_KEY,\n        rem_user=REM_USER,\n        annotations=annotations,\n    )",
+        "detail": "tests.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "HYP_KEY",
+        "kind": 5,
+        "importPath": "tests.test_utils",
+        "description": "tests.test_utils",
+        "peekOfCode": "HYP_KEY = os.environ[\"HYP_KEY\"]\nREM_KEY = os.environ[\"REM_KEY\"]\nREM_USER = os.environ[\"REM_USER\"]\nlog.reset()\nlog.init(verbosity=3)\ndef test_document_for_source():\n    \"\"\"Test creating/getting RemNote documents for Hypothes.is source URIs.\"\"\"\n    group_id = hyp.get_group_by_name(HYP_KEY, \"RemNote\")[\"id\"]\n    annotations = hyp.get_annotations(HYP_KEY, group=group_id)\n    for annotation in annotations:",
+        "detail": "tests.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "REM_KEY",
+        "kind": 5,
+        "importPath": "tests.test_utils",
+        "description": "tests.test_utils",
+        "peekOfCode": "REM_KEY = os.environ[\"REM_KEY\"]\nREM_USER = os.environ[\"REM_USER\"]\nlog.reset()\nlog.init(verbosity=3)\ndef test_document_for_source():\n    \"\"\"Test creating/getting RemNote documents for Hypothes.is source URIs.\"\"\"\n    group_id = hyp.get_group_by_name(HYP_KEY, \"RemNote\")[\"id\"]\n    annotations = hyp.get_annotations(HYP_KEY, group=group_id)\n    for annotation in annotations:\n        document_rem = hyp2rem.utils.document_for_source(",
+        "detail": "tests.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "REM_USER",
+        "kind": 5,
+        "importPath": "tests.test_utils",
+        "description": "tests.test_utils",
+        "peekOfCode": "REM_USER = os.environ[\"REM_USER\"]\nlog.reset()\nlog.init(verbosity=3)\ndef test_document_for_source():\n    \"\"\"Test creating/getting RemNote documents for Hypothes.is source URIs.\"\"\"\n    group_id = hyp.get_group_by_name(HYP_KEY, \"RemNote\")[\"id\"]\n    annotations = hyp.get_annotations(HYP_KEY, group=group_id)\n    for annotation in annotations:\n        document_rem = hyp2rem.utils.document_for_source(\n            REM_KEY,",
+        "detail": "tests.test_utils",
+        "documentation": {}
+    }
+]

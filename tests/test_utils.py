@@ -18,6 +18,7 @@ import log  # type: ignore
 
 import hyp2rem.utils
 from hyp2rem import hypothesis as hyp
+from hyp2rem import remnote as rem
 
 HYP_KEY = os.environ["HYP_KEY"]
 REM_KEY = os.environ["REM_KEY"]
@@ -43,3 +44,29 @@ def test_document_for_source():
         assert (
             annotation["target"][0]["source"] in document_rem.source[0]["url"]
         )
+
+
+def test_sync_first_level():
+    """Test creating Rems for Hypothes.is top-level annotations."""
+    group_id = hyp.get_group_by_name(HYP_KEY, "RemNote")["id"]
+    annotations = hyp.get_annotations(HYP_KEY, group=group_id)
+    hyp2rem.utils.sync_first_level(
+        hyp_key=HYP_KEY,
+        rem_key=REM_KEY,
+        rem_user=REM_USER,
+        annotations=annotations,
+    )
+    vue_rem = rem.get_rem_by_name(REM_KEY, REM_USER, "Vue")
+    assert vue_rem is not None
+
+
+def test_sync_replies():
+    """Test creating Rems for arbitrarily nested replies to Hyp-annotations."""
+    group_id = hyp.get_group_by_name(HYP_KEY, "RemNote")["id"]
+    annotations = hyp.get_annotations(HYP_KEY, group=group_id)
+    hyp2rem.utils.sync_replies(
+        hyp_key=HYP_KEY,
+        rem_key=REM_KEY,
+        rem_user=REM_USER,
+        annotations=annotations,
+    )

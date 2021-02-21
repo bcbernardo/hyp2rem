@@ -1,53 +1,48 @@
 # Copyright 2020 The Hyp2Rem Authors
 
 # Use of this source code is governed by an MIT-style
-# license that can be found in the LICENSE file or athy
+# license that can be found in the LICENSE file or at
 # https://opensource.org/licenses/MIT.
 
 
-"""Helper functions for Hypothes.is to RemNote connection logic.
-
-This module provides helper functions for syncing Hypothes.is annotations and
-RemNote Rems.
+"""Helper classes and functions for handling Hypothes.is to RemNote connection.
 """
 
-from typing import Any, Mapping
+from enum import Enum
+from typing import Literal
 
-import log  # type: ignore
-
-from hyp2rem import remnote as rem
-from hyp2rem.remnote import Rem
+from requests.auth import AuthBase
 
 
-def document_for_source(
-    rem_key: str,
-    rem_user: str,
-    annotation: Mapping[str, Any],
-) -> Rem:
-    """Fetch or create a document-level Rem for a annotated webpage or file."""
-    source_base_uri = annotation["target"][0]["source"]
-    source_uri = (
-        "https://hyp.is/go?url="
-        + source_base_uri
-        + "&group="
-        + annotation["group"]
-    )
-    source_title = annotation["document"]["title"][0]
-    log.debug(
-        "Checking whether there is already a document Rem for "
-        + f"<{source_base_uri}>..."
-    )
-    document_rem = rem.get_rem_by_source(rem_key, rem_user, source_uri)
-    if document_rem is None:
-        log.debug("No existing Rem was found. Creating it...")
-        document_rem_id = rem.create_rem(
-            rem_key,
-            rem_user,
-            source=source_uri,
-            text=source_title,
-            is_document=True,
-        )
-        document_rem = rem.get_rem_by_id(rem_key, rem_user, document_rem_id)
-        assert document_rem is not None
-    log.debug(f"Retrieved document Rem with id '{document_rem.rem_id}'...")
-    return document_rem
+class HTTPBearerAuth(AuthBase):
+    """Bearer authentication scheme for use with Requests package."""
+
+    def __init__(self, key: str):
+        self.key = key
+
+    def __call__(self, r):
+        r.headers.update({"Authorization": "Bearer " + self.key})
+        return r
+
+
+class UpdatePolicy(Enum):
+    """Update policies to choose from.
+
+    Attributes:
+        ALL: All target Rems will be updated when there are changes in the
+            associated annotations, as will also be their parent Rems and
+            and "older siblings" (Rems that come before it in the same
+            hierarchicall level).
+        SAFE: Only Rems that have not been modified manually after last sync
+            will be updated, as will be their parent Rems and older siblings.
+        SAFESTRICT: Only Rems that have not been modified manually after last
+            sync will be updated. Parent Rems and older siblings will be left
+            unchanged, even if they are updatable.
+        FORBID: Allow no updates at all.
+    """
+
+    ALL: Literal["all"] = "all"
+    SAFE: Literal["safe"] = "safe"
+    STRICT: Literal["strict"] = "strict"
+    SAFESTRICT: Literal["safestrict"] = "safestrict"
+    FORBID: Literal["forbid"] = "forbid"
